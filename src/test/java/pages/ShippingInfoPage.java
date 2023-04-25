@@ -70,7 +70,7 @@ public class ShippingInfoPage extends CommonMethods {
             }
 
         } catch (Exception e) {
-            test.fail("<p style=\"color:red; font-size:13px\"><b> Name Input not locateable.</b></p>");
+            test.fail("<p style=\"color:red; font-size:13px\"><b> Name Input not locatable</b></p>");
             Throwable t = new InterruptedException("Exception");
             test.fail(t);
             @SuppressWarnings("unused")
@@ -97,7 +97,7 @@ public class ShippingInfoPage extends CommonMethods {
             }
 
         } catch (Exception e) {
-            test.fail("<p style=\"color:red; font-size:13px\"><b>Phone Number Input not locateable.</b></p>");
+            test.fail("<p style=\"color:red; font-size:13px\"><b>Phone Number Input not locatable</b></p>");
             Throwable t = new InterruptedException("Exception");
             test.fail(t);
             @SuppressWarnings("unused")
@@ -124,7 +124,7 @@ public class ShippingInfoPage extends CommonMethods {
             }
 
         } catch (Exception e) {
-            test.fail("<p style=\"color:red; font-size:13px\"><b>Alternative Phone Number not locateable.</b></p>");
+            test.fail("<p style=\"color:red; font-size:13px\"><b>Alternative Phone Number not locatable</b></p>");
             Throwable t = new InterruptedException("Exception");
             test.fail(t);
             @SuppressWarnings("unused")
@@ -141,7 +141,7 @@ public class ShippingInfoPage extends CommonMethods {
         try{
             if (CountryDropDown.isDisplayed()){
                 CountryDropDown.click();
-                selectItemByIndex(CountryDropDown, 1);
+                selectItemByIndex(CountryDropDown, 0);
                 test.pass("<p style=\"color:green; font-size:13px\"><b>Country DropDown Value Giving</b></p>");
 
                 @SuppressWarnings("unused")

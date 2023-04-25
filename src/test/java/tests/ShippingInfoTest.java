@@ -27,7 +27,7 @@ public class ShippingInfoTest extends BaseDriver {
 
     @Test(priority = 0)
     public void NameGiven() throws IOException {
-        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Name Giving </b></p>");
+        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Name</b></p>");
         ShippingInfoPage NameGiven = new ShippingInfoPage(childTest);
         NameGiven.NameGiven();
     }
@@ -35,7 +35,7 @@ public class ShippingInfoTest extends BaseDriver {
     @Test(priority = 1)
     public void PhoneNumberGiven() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Phone Number Giving </b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Phone Number</b></p>");
         ShippingInfoPage PhoneNumberGiven = new ShippingInfoPage(childTest);
         PhoneNumberGiven.PhoneNumberGiven();
     }
@@ -43,7 +43,7 @@ public class ShippingInfoTest extends BaseDriver {
     @Test(priority = 2)
     public void AlterNativePhoneNum() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Alternative Phone Number Giving </b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Alternative Phone Number</b></p>");
         ShippingInfoPage AlterNativePhoneNum = new ShippingInfoPage(childTest);
         AlterNativePhoneNum.AlterNativePhoneNum();
     }
@@ -51,7 +51,7 @@ public class ShippingInfoTest extends BaseDriver {
     @Test(priority = 3)
     public void CountryDropDown() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Country DropDown Giving </b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Country</b></p>");
         ShippingInfoPage CountryDropDown = new ShippingInfoPage(childTest);
         CountryDropDown.CountryDropDown();
     }
@@ -59,7 +59,7 @@ public class ShippingInfoTest extends BaseDriver {
     @Test(priority = 4)
     public void CityDropDown() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>City DropDown Giving </b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide City</b></p>");
         ShippingInfoPage CityDropDown = new ShippingInfoPage(childTest);
         CityDropDown.CityDropDown();
     }
@@ -68,7 +68,7 @@ public class ShippingInfoTest extends BaseDriver {
     @Test(priority = 5)
     public void AreaDropDown() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Area DropDown Giving </b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Area</b></p>");
         ShippingInfoPage AreaDropDown = new ShippingInfoPage(childTest);
         AreaDropDown.AreaDropDown();
     }
@@ -76,14 +76,14 @@ public class ShippingInfoTest extends BaseDriver {
     @Test(priority = 6)
     public void ZoneDropDown() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Zone DropDown Giving </b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Zone</b></p>");
         ShippingInfoPage ZoneDropDown = new ShippingInfoPage(childTest);
         ZoneDropDown.ZoneDropDown();
     }
 
     @Test(priority = 7)
     public void AddressInputField() throws IOException {
-        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Address Is Giving </b></p>");
+        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Address</b></p>");
         ShippingInfoPage AddressInputField = new ShippingInfoPage(childTest);
         AddressInputField.AddressInputField();
     }

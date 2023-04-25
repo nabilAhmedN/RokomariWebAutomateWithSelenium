@@ -69,13 +69,13 @@ public class WriterTest extends BaseDriver {
 
     @Test(priority = 6)
     public void ClickSecondCategory() throws IOException{
-        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Click the first category</b></p>");
+        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Click the Second category</b></p>");
         WriterPage clickSecondCategory = new WriterPage(childTest);
         clickSecondCategory.SecondCategoryCheckBoxClick();
     }
     @Test(priority = 7)
     public void SelectBookDivScroll() throws IOException {
-        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Select book list Div</b></p>");
+        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Select book list section</b></p>");
         WriterPage SelectBookDivScroll = new WriterPage(childTest);
         SelectBookDivScroll.SelectBookDivScroll();
     }

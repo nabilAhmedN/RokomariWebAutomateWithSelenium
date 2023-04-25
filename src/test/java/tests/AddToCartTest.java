@@ -29,7 +29,7 @@ public class AddToCartTest extends BaseDriver {
     @Test(priority = 0)
     public void FirstBookHover() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Hover On First Book t</b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Hover On First Book</b></p>");
         AddToCartPage FirstBookHover = new AddToCartPage(childTest);
         FirstBookHover.FirstBookHover();
     }
@@ -68,7 +68,7 @@ public class AddToCartTest extends BaseDriver {
 
     @Test(priority = 5)
     public void ThirdBookInAddToCart() throws IOException {
-        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Second Book To Cart</b></p>");
+        childTest = parentTest.createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Third Book To Cart</b></p>");
         AddToCartPage ThirdBookInAddToCart = new AddToCartPage(childTest);
         ThirdBookInAddToCart.ThirdBookInAddToCart();
     }
@@ -100,7 +100,7 @@ public class AddToCartTest extends BaseDriver {
     @Test(priority = 10)
     public void UndoTheRemoveBook() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Remove First Element By Yes</b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Undo the remove book</b></p>");
         AddToCartPage UndoTheRemoveBook = new AddToCartPage(childTest);
         UndoTheRemoveBook.UndoTheRemoveBook();
     }

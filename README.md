@@ -1,5 +1,5 @@
 ## Warning
-You have to provide an own Email address and Password.
+You have to provide your own Email address and Password.
 
 ## Project Steps
 - Sign Up using Google

@@ -307,7 +307,6 @@ public class AddToCartPage extends CommonMethods {
                 scrollPageDown();
 //                scrollToElement(GoThroughTheOrderButton);
                 test.pass("<p style=\"color:green; font-size:13px\"><b>Confirm Undo book Element Success</b></p>");
-                timeOut(5000);
 
                 @SuppressWarnings("unused")
                 String screenShotPath = GetScreenShot.capture(PageDriver.getCurrentDriver(),

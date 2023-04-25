@@ -45,7 +45,7 @@ public class GooglePageTest extends BaseDriver {
     @Test(priority = 2)
     public void EmailPassword() throws IOException {
         childTest = parentTest
-                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Gmail Password Provide</b></p>");
+                .createNode("<p style=\"color:DarkBlue; font-size:20px\"><b>Provide Password</b></p>");
         GooglePage EmailPassword = new GooglePage(childTest);
         EmailPassword.EmailPassword();
     }
